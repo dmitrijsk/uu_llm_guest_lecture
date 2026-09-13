@@ -1,0 +1,24 @@
+[project]
+name = "uu-llm-guest-lecture"
+version = "0.1.0"
+description = "UU guest lecture notebook: LLM APIs (structured output, RAG)"
+authors = [
+    { name = "Dmitrijs Kass", email = "dmitrijs@modulai.io" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic",
+    "pydantic",
+    "python-dotenv",
+    "notebook",
+    "langchain",
+    "langchain_community",
+    "langchain_anthropic",
+    "langchain_chroma",
+    "pypdf",
+    "fastembed",
+    "chromadb",
+]
+
+[tool.uv]
+package = false

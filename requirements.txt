@@ -1,5 +1,0 @@
-openai
-instructor
-pydantic
-langchain_openai
-notebook
